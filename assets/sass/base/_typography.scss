@@ -1,0 +1,52 @@
+/*=======================================
+            Typography - Start
+=======================================*/
+
+/*=======================================
+       Comfortaa - from Google Font
+=======================================*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Font Familys
+$font_family-Inter: 'Inter', sans-serif;
+
+/*=======================================
+   Font Details - from FrontEnd Mentor
+=======================================*/
+
+// Font Weights
+$font_weight-primary: 700;
+$font_weight-primary--light: 600;
+$font_weight-secondary: 400;
+
+// Font Styles
+$font_style-normal: normal;
+
+// Letter Spacing
+$font_letter-spacing: 0.05rem;
+
+// Line Heights
+$font_line-height-primary: 6rem;
+$font_line-height-primary-lg: 4rem;
+$font_line-height-primary-xs: 3.6rem;
+$font_line-height-secondary: 2.4rem;
+$font_line-height-third: 1.4rem;
+$font_line-height-fourth: 1.6rem;
+
+// Font Sizes
+$font_size-html: 10px;
+$font_size-root: 1.6rem;
+$font_size-primary: 4.1rem;
+$font_size-primary-xs: 2.4rem;
+$font_size-secondary: 1.6rem;
+$font_size-secondary-lg: 2rem;
+$font_size-third: 1.2rem;
+$font_size-fourth: 1.3rem;
+$font_size-quote: 3rem;
+$font_size-card-content: 1.3rem;
+$font_size-card-title: 1.1rem;
+$font_size-card-explanation: 0.8rem;
+
+/*=======================================
+             Typography - End
+=======================================*/

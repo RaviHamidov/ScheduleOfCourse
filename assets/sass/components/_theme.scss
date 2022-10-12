@@ -1,0 +1,27 @@
+body {
+    .main {
+        &_column {
+            &-card {
+                &--preparation {
+                    background: $color_preparation-default--bg;
+                    color: $color_white;
+                }
+
+                &--default {
+                    background: $color_white--bg;
+                    color: $color_primary-default;
+                }
+
+                &--active {
+                    background: $color_active-default--bg;
+                    color: $color_white;
+                }
+
+                &--end {
+                    background: $color_end-default--bg;
+                    color: $color_white;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,162 @@
+[
+  [
+    {
+      "group": "692.20E",
+      "room": 1,
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    },
+    {
+      "group": "652.20E",
+      "room": 2,
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    },
+    {
+      "group": "622.19E",
+      "room": 3,
+      "startsAt": "15:05",
+      "endsAt": "16:25"
+    },
+    {
+      "group": "630.20R",
+      "room": 1,
+      "startsAt": "08:30",
+      "endsAt": "09:50"
+    }
+  ],
+  [
+    {
+      "group": "652.20E",
+      "room": 2,
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    },
+    {
+      "group": "681.20",
+      "room": "Ufaz",
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    },
+    {
+      "group": "606.20E",
+      "room": 4,
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    },
+    {
+      "group": "630.20",
+      "room": 1,
+      "startsAt": "11:40",
+      "endsAt": "13:0"
+    }
+  ],
+  [
+    {
+      "group": "652.20E",
+      "room": 2,
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    },
+    {
+      "group": "692.20E",
+      "room": 1,
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    },
+    {
+      "group": "681.20",
+      "room": "Ufaz",
+      "startsAt": "11:40", 
+      "endsAt": "13:00"
+    },
+    {
+      "group": "606.20E",
+      "room": 4,
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    }
+  ],
+  [
+    {
+      "group": "652.20E",
+      "room": 2,
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    },
+    {
+      "group": "692.20E",
+      "room": 1,
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    },
+    {
+      "group": "681.20",
+      "room": "Ufaz",
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    },
+    {
+      "group": "622.19E",
+      "room": 4,
+      "startsAt": "16:40",
+      "endsAt": "18:00"
+    },
+    {
+      "group": "606.20",
+      "room": 4,
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    },
+    {
+      "group": "630.20",
+      "room": 1,
+      "startsAt": "08:30",
+      "endsAt": "09:50"
+    },
+    {
+      "group": "630.20",
+      "room": 1,
+      "startsAt": "10:05",
+      "endsAt": "11:25"
+    }
+  ],
+  [
+    {
+      "group": "652.20E",
+      "room": 2,
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    },
+    {
+      "group": "681.20",
+      "room": "Ufaz",
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    },
+    {
+      "group": "692.20E",
+      "room": 1,
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    },
+    {
+      "group": "622.19E",
+      "room": 3,
+      "startsAt": "16:40",
+      "endsAt": "17:00"
+    },
+    {
+      "group": "606.20E", 
+      "room": 4,
+      "startsAt": "11:40",
+      "endsAt": "13:00"
+    },
+    { 
+      "group": "630.20",
+      "room": 1,
+      "startsAt": "10:05",
+      "endsAt": "11:25"
+    }
+  ]
+]

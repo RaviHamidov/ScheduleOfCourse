@@ -1,0 +1,16 @@
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body {
+    font-family: "Inter", sans-serif; /* font-size: 16px; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+    scroll-behavior: smooth;
+}

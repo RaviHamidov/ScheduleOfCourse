@@ -1,0 +1,76 @@
+.footer {
+    &_introduction {
+        margin: 60px 0 0 70px;
+
+        &--card:nth-child(1) {
+            &:before {
+                border: 20px solid $color_preparation-default;
+            }
+        }
+        &--card:nth-child(2) {
+            &:before {
+                border: 20px solid $color_active-default;
+            }
+        }
+        &--card:nth-child(3) {
+            &:before {
+                border: 20px solid $color_end-default;
+            }
+        }
+
+        &--card {
+            position: relative;
+            margin: 1rem 0 0 0;
+            font: {
+                family: $font_family-Inter;
+                size: $font_size-secondary;
+                weight: $font_weight-secondary;
+                style: $font_style-normal;
+            }
+
+            &:before {
+                content: "";
+                position: absolute;
+                left: -3rem;
+                background-color: $color_white;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                left: -2.2rem;
+                top: 0.8rem;
+                background-color: $color_white;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+        }
+    }
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+
+        font: {
+            family: $font_family-Inter;
+            size: $font_size-secondary;
+            weight: $font_weight-primary;
+            style: $font_style-normal;
+        }
+        letter-spacing: $font_letter-spacing;
+        color: #fff;
+    }
+}

@@ -1,0 +1,94 @@
+.header {
+  &_title {
+    font: {
+      family: $font_family-Inter;
+      size: $font_size-primary;
+      weight: $font_weight-primary;
+      style: $font_style-normal;
+    }
+
+    line-height: $font_line-height-primary;
+    letter-spacing: $font_letter-spacing;
+    color: #fff;
+  }
+
+  &_time {
+    font: {
+      family: $font_family-Inter;
+      size: $font_size-primary-xs;
+      weight: $font_weight-primary--light;
+      style: $font_style-normal;
+    }
+    line-height: $font_line-height-primary;
+    letter-spacing: $font_letter-spacing;
+    color: #314cce;
+    background-color: #fff;
+    padding: 0 1rem;
+    border-radius: 25px 0px 0px 25px;
+    -webkit-border-radius: 25px 0px 0px 25px;
+    -moz-border-radius: 25px 0px 0px 25px;
+    -ms-border-radius: 25px 0px 0px 25px;
+    -o-border-radius: 25px 0px 0px 25px;
+  }
+
+  &_day {
+    font: {
+      family: $font_family-Inter;
+      size: $font_size-secondary-lg;
+      weight: $font_weight-primary;
+      style: $font_style-normal;
+    }
+    line-height: $font_line-height-primary-xs;
+    letter-spacing: $font_letter-spacing;
+    color: #fff;
+    background-color: #314cce;
+    padding: 0 1rem;
+    border-radius: 25px 0px 25px 25px;
+    -webkit-border-radius: 25px 0px 25px 25px;
+    -moz-border-radius: 25px 0px 25px 25px;
+    -ms-border-radius: 25px 0px 25px 25px;
+    -o-border-radius: 25px 0px 25px 25px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .header {
+    &_title {
+      font: {
+        family: $font_family-Inter;
+        size: $font_size-primary-xs;
+        weight: $font_weight-primary;
+        style: $font_style-normal;
+      }
+
+      line-height: $font_line-height-primary;
+      letter-spacing: $font_letter-spacing;
+      color: #fff;
+    }
+
+    &_time {
+      font: {
+        family: $font_family-Inter;
+        size: $font_size-secondary;
+        weight: $font_weight-primary;
+        style: $font_style-normal;
+      }
+
+      line-height: $font_line-height-primary;
+      letter-spacing: $font_letter-spacing;
+      color: #314cce;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .header_time {
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    text-align: center !important;
+  }
+}
